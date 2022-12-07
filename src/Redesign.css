@@ -1,0 +1,90 @@
+p, h1, h2, h3, h4, li {
+  font-family: 'Lato'
+}
+
+h4 {
+  margin-bottom: 10px;
+  margin-top: 30px;
+  text-align: center;
+}
+
+.bottom-padding {
+  padding-bottom: 8rem;
+}
+
+.pink-blue {
+  background-color: LightCoral;
+  border-radius: 10px;
+  padding: 20px;
+  width: 75%;
+  margin: auto;
+}
+
+.fill-in-top {
+  background-color: LightBlue;
+  border-radius: 0;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.fill-in-bottom {
+  border-radius: 0;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.padding {
+  text-align: center;
+}
+
+.resize-screenshot {
+  margin: auto;
+  margin-bottom: 20px;
+  width: 80%;
+}
+
+.lists {
+  display: inline-block;
+}
+
+.learnability, .usability, .memorability {
+  display: inline-block;
+  width: 33%;
+  text-align: center;
+  vertical-align: top;
+  margin-top: 10px;
+}
+
+.left-align {
+  text-align: left;
+}
+
+.padding-top-bottom {
+  padding: 10px 0;
+}
+
+.dropdown {
+  display: inline-block;
+  margin: 10px;
+}
+
+.dropdowns {
+  text-align: center;
+}
+
+#take-me-there {
+  text-align: center;
+  all: unset;
+  font-family: 'Lato';
+  background-color: #f0818b;
+  border-radius: 10px;
+  cursor: pointer;
+  padding: 10px;
+  color: black;
+  margin-top: -30px;
+}
+
+#take-me-there:hover {
+  background-color: rgba(232, 222, 130, 0.7);
+  transition: 0.2s ease;
+}
